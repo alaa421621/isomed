@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isomed - Premium Medical Syringes | 3ml & 5ml</title>
+    <meta name="description" content="Isomed manufactures high-quality medical syringes with precision engineering. ISO 13485, CE, EDA certified. 3ml and 5ml sterile syringes for healthcare professionals.">
+    <meta name="keywords" content="medical syringes, 3ml syringe, 5ml syringe, sterile syringes, Egypt, healthcare">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #D32F2F;
+            --dark-gray: #3A3F44;
+            --light-gray: #F5F5F5;
+            --white: #FFFFFF;
+            --text-color: #333333;
+            --border-color: #E0E0E0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            color: var(--text-color);
+            line-height: 1.6;
+            background-color: var(--white);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            background: var(--white);
+            border-bottom: 1px solid var(--border-color);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 70px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            color: var(--dark-gray);
+            font-size: 20px;
+        }
+
+        .logo img {
+            height: 50px;
+            width: auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        .cta-button {
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 10px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background: #B71C1C;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            height: 600px;
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://private-us-east-1.manuscdn.com/user_upload_by_module/session_file/310419663030540950/ZhrcGeGUrSiSirDF.PNG?Expires=1802696606&Signature=hHmFnXz-tP4rYkid~irzhz8oUsq9jSV6SIpXcXsFlkV3Gso0mpLlQTsaLK349FepxIaSUa1BYFJ~3J7i95BAoJOSNjZb-L~R7lUS4BP1OrG8YKOmuV72YHkdQH383NhFdFsJUI3qsH27YaTWC4QBACzg~5eL5xxz-NPT3x46t4Kn1ps5meviJ28k0TLNU3TFY-2QtPRLgbaWoqh-pO1flif5QTJg5lkZeV7Aome6ejPPkO28BuNGcu6BkFM59TSStd156is8ACJxdfjfhNwjZSltR8zTak770-O3msr1QnmZJCyGo8a~G~4V3l3a4gRqZAxwZMdRoqvZ7qCyabCBjQ__&Key-Pair-Id=K2HSFNDJXOU9YS');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            color: var(--white);
+        }
+
+        .hero-content {
+            max-width: 600px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 56px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            opacity: 0.95;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 15px 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+
+        .btn-primary:hover {
+            background: #B71C1C;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--white);
+            border: 2px solid var(--primary-color);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary-color);
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 0;
+        }
+
+        section.light {
+            background: var(--light-gray);
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--dark-gray);
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 18px;
+            color: #666;
+            max-width: 600px;
+            margin: 0 auto 60px;
+        }
+
+        /* Products Section */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .product-card {
+            background: var(--white);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .product-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .product-photo {
+            display: block;
+            width: 100%;
+            height: 230px;
+            object-fit: contain;
+            border-radius: 8px;
+            margin: 0 auto 20px;
+            background: #fafafa;
+        }
+
+        .product-photo-pair {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .product-photo-pair .product-photo {
+            margin-bottom: 0;
+        }
+
+        .product-card h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--dark-gray);
+        }
+
+        .product-card p {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .product-specs {
+            background: var(--light-gray);
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 13px;
+            color: var(--text-color);
+            text-align: left;
+        }
+
+        /* Product Gallery Carousel */
+        .gallery {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .gallery-viewport {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #fafafa;
+            border: 1px solid var(--border-color);
+            aspect-ratio: 4 / 3;
+            touch-action: pan-y;
+        }
+
+        .gallery-track {
+            display: flex;
+            height: 100%;
+            transition: transform 0.45s ease;
+        }
+
+        .gallery-slide {
+            flex: 0 0 100%;
+            height: 100%;
+            padding: 8px;
+            cursor: zoom-in;
+            background: none;
+            border: 0;
+        }
+
+        .gallery-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .gallery-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            border: 1px solid var(--border-color);
+            background: rgba(255,255,255,0.95);
+            color: var(--dark-gray);
+            font-size: 18px;
+            line-height: 1;
+            cursor: pointer;
+            z-index: 2;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+            transition: all 0.2s;
+        }
+
+        .gallery-btn:hover {
+            background: var(--primary-color);
+            color: var(--white);
+            border-color: var(--primary-color);
+        }
+
+        .gallery-btn.prev { left: 8px; }
+        .gallery-btn.next { right: 8px; }
+
+        .gallery-counter {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            background: rgba(58,63,68,0.85);
+            color: var(--white);
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            z-index: 2;
+        }
+
+        .gallery-caption {
+            margin: 12px 0 8px !important;
+            font-size: 13px !important;
+            font-weight: 700;
+            color: var(--dark-gray) !important;
+            min-height: 18px;
+        }
+
+        .gallery-thumbs {
+            display: flex;
+            gap: 6px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+            scrollbar-width: thin;
+        }
+
+        .gallery-thumb {
+            flex: 0 0 48px;
+            height: 48px;
+            padding: 2px;
+            border: 2px solid transparent;
+            border-radius: 6px;
+            background: #fafafa;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: all 0.2s;
+        }
+
+        .gallery-thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 3px;
+            display: block;
+        }
+
+        .gallery-thumb:hover { opacity: 1; }
+
+        .gallery-thumb.active {
+            opacity: 1;
+            border-color: var(--primary-color);
+        }
+
+        .lightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(20,22,24,0.92);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            padding: 20px;
+        }
+
+        .lightbox.open { display: flex; }
+
+        .lightbox img {
+            max-width: 92vw;
+            max-height: 82vh;
+            object-fit: contain;
+            background: #fff;
+            border-radius: 6px;
+        }
+
+        .lightbox-caption {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .lightbox .gallery-btn {
+            width: 44px;
+            height: 44px;
+            font-size: 22px;
+        }
+
+        .lightbox-close {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            background: none;
+            border: 0;
+            color: #fff;
+            font-size: 36px;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .gallery-track { transition: none; }
+        }
+
+        /* Features Section */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .feature-item {
+            text-align: center;
+        }
+
+        .feature-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            margin: 0 auto 20px;
+            color: var(--white);
+        }
+
+        .feature-item h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: var(--dark-gray);
+        }
+
+        .feature-item p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        /* Manufacturing Section */
+        .manufacturing-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .step {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary-color);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .step-number {
+            display: inline-block;
+            background: var(--primary-color);
+            color: var(--white);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .step h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: var(--dark-gray);
+        }
+
+        .step p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .step-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .step-gallery {
+            margin-top: 18px;
+        }
+
+        .step-gallery .gallery-viewport {
+            aspect-ratio: 4 / 3;
+        }
+
+        /* Facilities Section */
+        .facilities-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .facilities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .facility-stat {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+        }
+
+        .facility-stat .number {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            font-weight: 900;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .facility-stat p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* Certifications */
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 60px;
+        }
+
+        .cert-item {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s;
+        }
+
+        .cert-item:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 4px 12px rgba(211, 47, 47, 0.1);
+        }
+
+        .cert-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .cert-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: var(--dark-gray);
+        }
+
+        .cert-item p {
+            font-size: 13px;
+            color: #666;
+        }
+
+        /* Contact Section */
+        .contact-form {
+            max-width: 600px;
+            margin: 60px auto 0;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: var(--dark-gray);
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            font-family: 'Lato', sans-serif;
+            font-size: 14px;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(211, 47, 47, 0.1);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: var(--primary-color);
+            color: var(--white);
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .submit-btn:hover {
+            background: #B71C1C;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark-gray);
+            color: var(--white);
+            padding: 60px 0 20px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h4 {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .footer-section a:hover {
+            color: var(--primary-color);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.2);
+            padding-top: 20px;
+            text-align: center;
+            color: rgba(255,255,255,0.7);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .section-title {
+                font-size: 32px;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">
+                <span>ISOMED</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#products">Products</a></li>
+                <li><a href="#features">Why Isomed</a></li>
+                <li><a href="#manufacturing">Manufacturing</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Premium Medical Syringes</div>
+                <h1>Precision Syringes for Healthcare Excellence</h1>
+                <p>Isomed manufactures high-quality medical syringes with precision engineering and rigorous quality standards. Trusted by healthcare professionals across Egypt and beyond.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">View Products</button>
+                    <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Request Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="light">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <p class="section-subtitle">Isomed specializes in precision-engineered medical syringes designed for accuracy, safety, and reliability in clinical settings.</p>
+
+            <div class="products-grid">
+
+                <!-- Product 1: 3ml Baby Syringe -->
+                <div class="product-card">
+                    <div class="gallery" data-gallery
+                        data-captions='["Retail box – front","Retail box – product details","Retail box – side","Retail box – back"]'
+                        aria-roledescription="carousel"
+                        aria-label="Isomed 3 ml Baby syringe photos">
+                        <div class="gallery-viewport">
+                            <div class="gallery-track">
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – front"><img src="3mm_baby_front.jpeg" alt="Isomed 3 ml Baby syringe – Retail box front" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – back"><img src="orange_back.jpeg" alt="Isomed 3 ml Baby syringe – Retail box product details" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: shipping carton – shipping carton front"><img src="babby_front_shipping.jpeg" alt="Isomed 3 ml Baby syringe – Retail box side" loading="lazy"></button>
+                        
+                            </div>
+                            <button type="button" class="gallery-btn prev" aria-label="Previous image">&#8249;</button>
+                            <button type="button" class="gallery-btn next" aria-label="Next image">&#8250;</button>
+                            <span class="gallery-counter" aria-live="polite">1 / 4</span>
+                        </div>
+                        <p class="gallery-caption"></p>
+                        <div class="gallery-thumbs">
+                            <button type="button" class="gallery-thumb" aria-label="Show image 1: Retail box – front"><img src="3mm_baby_front.jpeg" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 2: Retail box – back"><img src="orange_back.jpeg" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 3: shipping carton box – shipping carton front"><img src="babby_front_shipping.jpeg" alt=""></button>
+                            
+                        </div>
+                    </div>
+                    <h3>3ml Baby Syringe</h3>
+                    <p><strong>Ref: Q-01</strong></p>
+                    <div class="product-specs">
+                        <p><strong>Needle:</strong> 25G × 5/8"</p>
+                        <p><strong>Capacity:</strong> 3ml</p>
+                        <p><strong>Type:</strong> Sterile Hypodermic</p>
+                    </div>
+                </div>
+
+                <!-- Product 2: 3ml Infant Syringe -->
+                <div class="product-card">
+                    <div class="gallery" data-gallery
+                        data-captions='["Retail box – front","Retail box – product details","Retail box – side","Retail box – back"]'
+                        aria-roledescription="carousel"
+                        aria-label="Isomed 3 ml Infant syringe photos">
+                        <div class="gallery-viewport">
+                            <div class="gallery-track">
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – front"><img src="purple_ffront.jfif" alt="Isomed 3 ml Infant syringe – Retail box front" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – back"><img src="back_purple.jfif" alt="Isomed 3 ml Infant syringe – Retail box product details" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge:shipping carton box – shipping carton front"><img src="ship_purple_front.jfif" alt="Isomed 3 ml Infant syringe – Retail box side" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: shipping carton box – shipping carton back"><img src="ship_purple_back.jfif" alt="Isomed 3 ml Infant syringe – Retail box back" loading="lazy"></button>
+                            </div>
+                            <button type="button" class="gallery-btn prev" aria-label="Previous image">&#8249;</button>
+                            <button type="button" class="gallery-btn next" aria-label="Next image">&#8250;</button>
+                            <span class="gallery-counter" aria-live="polite">1 / 4</span>
+                        </div>
+                        <p class="gallery-caption"></p>
+                        <div class="gallery-thumbs">
+                            <button type="button" class="gallery-thumb" aria-label="Show image 1: Retail box – front"><img src="purple_ffront.jfif" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 2: Retail box – back"><img src="back_purple.jfif" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 3: shipping carton box – shipping carton front"><img src="ship_purple_front.jfif" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 4: shipping carton box –shipping carton  back"><img src="ship_purple_back.jfif" alt=""></button>
+                        </div>
+                    </div>
+                    <h3>3ml Infant Syringe</h3>
+                    <p><strong>Ref: Q-02</strong></p>
+                    <div class="product-specs">
+                        <p><strong>Needle:</strong> 24G × 1"</p>
+                        <p><strong>Capacity:</strong> 3ml</p>
+                        <p><strong>Type:</strong> Sterile Hypodermic</p>
+                    </div>
+                </div>
+
+                <!-- Product 3: 3ml Adult Syringe -->
+                <div class="product-card">
+                    <div class="gallery" data-gallery
+                        data-captions='["Retail box – front","Retail box – back"]'
+                        aria-roledescription="carousel"
+                        aria-label="Isomed 3 ml Adult syringe photos">
+                        <div class="gallery-viewport">
+                            <div class="gallery-track">
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – front"><img src="3mm_frontt.jfif" alt="Front of Isomed 3 ml Adult syringe product box" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – back"><img src="3mm_backk.jfif" alt="Back of Isomed 3 ml Adult syringe product box" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: shipping carton – front"><img src="3mm_front.jfif" alt="Front of Isomed 3 ml Adult syringe product box" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: shipping carton box – back"><img src="3mm _back.jfif" alt="Back of Isomed 3 ml Adult syringe product box" loading="lazy"></button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: 3 ml syringe – group"><img src="syrings_3mm.jfif" alt="Isomed 3 ml syringe – 3 ml syringe – group" loading="lazy"></button>
+                            </div>
+                            <button type="button" class="gallery-btn prev" aria-label="Previous image">&#8249;</button>
+                            <button type="button" class="gallery-btn next" aria-label="Next image">&#8250;</button>
+                            <span class="gallery-counter" aria-live="polite">1 / 2</span>
+                        </div>
+                        <p class="gallery-caption"></p>
+                        <div class="gallery-thumbs">
+                            <button type="button" class="gallery-thumb" aria-label="Show image 1: Retail box – front"><img src="3mm_frontt.jfif" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 2: Retail box – back"><img src="3mm_backk.jfif" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 1: shipping carton – front"><img src="3mm_front.jfif" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 2:shippping carton – back"><img src="3mm _back.jfif" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image : Syringe – group"><img src="syrings_3mm.jfif" alt=""></button>
+                        </div>
+                    </div>
+                    <h3>3ml Adult Syringe</h3>
+                    <p><strong>Ref: Q-03</strong></p>
+                    <div class="product-specs">
+                        <p><strong>Needle:</strong> 23G × 1¼"</p>
+                        <p><strong>Capacity:</strong> 3ml</p>
+                        <p><strong>Type:</strong> Sterile Hypodermic</p>
+                    </div>
+                </div>
+
+                <!-- Product 4: 5ml Standard Syringe -->
+                <div class="product-card">
+                    <div class="gallery" data-gallery data-captions='["Retail box – front","Retail box – product details","Retail box – side","Retail box – back","5 ml syringe with needle","5 ml syringe – graduation scale","Shipping carton – front","Shipping carton – product details","Shipping carton – side"]' aria-roledescription="carousel" aria-label="Isomed 5 ml syringe photos">
+                        <div class="gallery-viewport">
+                            <div class="gallery-track">
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – front"><img src="box5mmfront.jfif" alt="Isomed 5 ml syringe – Retail box – front" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – product details"><img src="5mm_side1.jfif" alt="Isomed 5 ml syringe – Retail box – product details" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – side"><img src="5mm_side2.jfif" alt="Isomed 5 ml syringe – Retail box – side" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: Retail box – back"><img src="5mm_back.jfif" alt="Isomed 5 ml syringe – Retail box – back" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: 5 ml syringe with needle"><img src="5mm_syringe.jfif" alt="Isomed 5 ml syringe – 5 ml syringe with needle" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: 5 ml syringe – graduation scale"><img src="5mm_syringe_2.jfif" alt="Isomed 5 ml syringe – 5 ml syringe – graduation scale" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: Shipping carton – front"><img src="5mmfrontuncolo.png" alt="Isomed 5 ml syringe – Shipping carton – front" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: Shipping carton – product details"><img src="5mmbackuncolo.jfif" alt="Isomed 5 ml syringe – Shipping carton – product details" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: Shipping carton – side"><img src="5mmuncoloside.jfif" alt="Isomed 5 ml syringe – Shipping carton – side" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: 5 ml syringe – group"><img src="syrings_5.jfif" alt="Isomed 5 ml syringe – 5 ml syringe – group" loading="lazy"></button>
+                            <button type="button" class="gallery-slide" aria-label="Enlarge: 5 ml syringe – group"><img src="syrings_back.jfif" alt="Isomed 5 ml syringe – 5 ml syringe – group" loading="lazy"></button>
+                            </div>
+                            <button type="button" class="gallery-btn prev" aria-label="Previous image">&#8249;</button>
+                            <button type="button" class="gallery-btn next" aria-label="Next image">&#8250;</button>
+                            <span class="gallery-counter" aria-live="polite">1 / 11</span>
+                        </div>
+                        <p class="gallery-caption"></p>
+                        <div class="gallery-thumbs">
+                        <button type="button" class="gallery-thumb" aria-label="Show image 1: Retail box – front"><img src="box5mmfront.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 2: Retail box – product details"><img src="5mm_side1.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 3: Retail box – side"><img src="5mm_side2.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 4: Retail box – back"><img src="5mm_back.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 5: 5 ml syringe with needle"><img src="5mm_syringe.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 6: 5 ml syringe – graduation scale"><img src="5mm_syringe_2.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 7: Shipping carton – front"><img src="5mmfrontuncolo.png" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 8: Shipping carton – product details"><img src="5mmbackuncolo.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 9: Shipping carton – side"><img src="5mmuncoloside.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 10: Syringe – group"><img src="syrings_5.jfif" alt=""></button>
+                        <button type="button" class="gallery-thumb" aria-label="Show image 10: Syringe – group"><img src="syrings_back.jfif" alt=""></button>
+                        </div>
+                    </div>
+                    <h3>5ml Standard Syringe</h3>
+                    <p><strong>Ref: Q-04</strong></p>
+                    <div class="product-specs">
+                        <p><strong>Needle:</strong> 22G × 1⅜"</p>
+                        <p><strong>Capacity:</strong> 5ml</p>
+                        <p><strong>Type:</strong> Sterile Hypodermic</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Isomed</h2>
+            <p class="section-subtitle">We combine competitive pricing with premium quality and reliable service.</p>
+            
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Competitive Pricing</h3>
+                    <p>Premium quality at competitive prices with flexible bulk pricing tiers for healthcare partners.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Reliable Local Supply</h3>
+                    <p>Reduced lead times and consistent supply from our modern Egyptian manufacturing facility.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Strict Compliance</h3>
+                    <p>Full traceability, lot control, and expiry tracking for complete regulatory compliance.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Customization Options</h3>
+                    <p>Custom printing, packaging, and specifications available for bulk orders.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Fast Delivery</h3>
+                    <p>Quick delivery within Egypt and regional export capabilities to neighboring countries.</p>
+                </div>
+
+                <div class="feature-item">
+                    <div class="feature-icon">✓</div>
+                    <h3>Quality Assurance</h3>
+                    <p>Rigorous QC testing and pharmaceutical-grade manufacturing standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manufacturing Section -->
+    <section id="manufacturing" class="light">
+        <div class="container">
+            <h2 class="section-title">Manufacturing Process</h2>
+            <p class="section-subtitle">State-of-the-art production with precision engineering and quality control at every stage.</p>
+            
+            <div class="manufacturing-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Raw Materials</h3>
+                    <p>Premium pharmaceutical-grade plastics and materials sourced from certified suppliers.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Molding & Assembly</h3>
+                    <p>Advanced injection molding and precision needle assembly with real-time quality monitoring.</p>
+                    <div class="gallery step-gallery" data-gallery
+                         data-captions='["Injection molding process","Molding and syringe component assembly"]'
+                         aria-roledescription="carousel" aria-label="Molding and assembly photos">
+                        <div class="gallery-viewport">
+                            <div class="gallery-track">
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Injection molding process">
+                                    <img src="modeling.jpeg" alt="Injection molding process" loading="lazy">
+                                </button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Molding and syringe component assembly">
+                                    <img src="assembling.jpeg" alt="Molding and syringe component assembly" loading="lazy">
+                                </button>
+                            </div>
+                            <button type="button" class="gallery-btn prev" aria-label="Previous image">&#8249;</button>
+                            <button type="button" class="gallery-btn next" aria-label="Next image">&#8250;</button>
+                            <span class="gallery-counter" aria-live="polite">1 / 2</span>
+                        </div>
+                        <p class="gallery-caption"></p>
+                        <div class="gallery-thumbs">
+                            <button type="button" class="gallery-thumb" aria-label="Show image 1: Injection molding process"><img src="modeling.jpeg" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 2: Molding and syringe component assembly"><img src="assembling.jpeg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Printing & Packaging</h3>
+                    <p>Professional labeling and secure packaging with full product information and traceability.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Sterilization & QC</h3>
+                    <p>Ethylene Oxide (EO) sterilization followed by comprehensive quality control testing.</p>
+                    <div class="gallery step-gallery" data-gallery
+                         data-captions='["Ethylene Oxide (EO) sterilization process","Quality control inspection and testing"]'
+                         aria-roledescription="carousel" aria-label="Sterilization and quality control photos">
+                        <div class="gallery-viewport">
+                            <div class="gallery-track">
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Ethylene Oxide sterilization process">
+                                    <img src="seterilization.jpeg" alt="Ethylene Oxide sterilization process" loading="lazy">
+                                </button>
+                                <button type="button" class="gallery-slide" aria-label="Enlarge: Quality control inspection and testing">
+                                    <img src="QC.jpeg" alt="Quality control inspection and testing" loading="lazy">
+                                </button>
+                            </div>
+                            <button type="button" class="gallery-btn prev" aria-label="Previous image">&#8249;</button>
+                            <button type="button" class="gallery-btn next" aria-label="Next image">&#8250;</button>
+                            <span class="gallery-counter" aria-live="polite">1 / 2</span>
+                        </div>
+                        <p class="gallery-caption"></p>
+                        <div class="gallery-thumbs">
+                            <button type="button" class="gallery-thumb" aria-label="Show image 1: Ethylene Oxide sterilization process"><img src="seterilization.jpeg" alt=""></button>
+                            <button type="button" class="gallery-thumb" aria-label="Show image 2: Quality control inspection and testing"><img src="QC.jpeg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section>
+        <div class="container">
+            <h2 class="section-title">Facilities & Capacity</h2>
+            <p class="section-subtitle">Modern manufacturing infrastructure with advanced equipment and quality standards.</p>
+            
+            <img src="factory.jfif">
+
+            <div class="facilities-grid">
+                <div class="facility-stat">
+                    <div class="number">6M</div>
+                    <p>Monthly Production Capacity</p>
+                </div>
+                <div class="facility-stat">
+                    <div class="number">90M</div>
+                    <p>Annual Production Capacity</p>
+                </div>
+                <div class="facility-stat">
+                    <div class="number">2,200m²</div>
+                    <p>Facility Size</p>
+                </div>
+                <div class="facility-stat">
+                    <div class="number">30+</div>
+                    <p>Skilled Staff</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="light">
+        <div class="container">
+            <h2 class="section-title">Quality Certifications</h2>
+            <p class="section-subtitle">Isomed meets international standards for medical device manufacturing and quality assurance.</p>
+            
+            <div class="certifications-grid">
+                <div class="cert-item">
+                    <div class="cert-icon">✓</div>
+                    <h3>ISO 13485:2016</h3>
+                    <p>Medical Devices Quality Management System</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">✓</div>
+                    <h3>CE Marking</h3>
+                    <p>European Conformity Certification</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">✓</div>
+                    <h3>EDA Registration</h3>
+                    <p>Egyptian Drug Authority Official Registration</p>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">✓</div>
+                    <h3>GMP Certified</h3>
+                    <p>Good Manufacturing Practice Standards</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Contact us for product inquiries, bulk orders, or partnership opportunities.</p>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 60px;">
+                <div style="text-align: center;">
+                    <div style="font-size: 32px; margin-bottom: 15px;">📍</div>
+                    <h3 style="color: var(--dark-gray); margin-bottom: 10px;">Address</h3>
+                    <p>Plot 224, 2nd Industrial Zone<br>Salhia, Sharkia, Egypt</p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 32px; margin-bottom: 15px;">📞</div>
+                    <h3 style="color: var(--dark-gray); margin-bottom: 10px;">Phone</h3>
+                    <p><a href="tel:+201557131806" style="color: var(--primary-color); text-decoration: none;">+20 155 7131806</a></p>
+                </div>
+                <div style="text-align: center;">
+                    <div style="font-size: 32px; margin-bottom: 15px;">✉️</div>
+                    <h3 style="color: var(--dark-gray); margin-bottom: 10px;">Email</h3>
+                    <p><a href="mailto:info@isomed.com.eg" style="color: var(--primary-color); text-decoration: none;">info@isomed.com.eg</a></p>
+                </div>
+            </div>
+
+            <form class="contact-form" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company Name *</label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="product">Product Interested In *</label>
+                    <select id="product" name="product" required>
+                        <option value="">Select a product</option>
+                        <option value="3ml-baby">3ml Baby Syringe (Q-01)</option>
+                        <option value="3ml-infant">3ml Infant Syringe (Q-02)</option>
+                        <option value="3ml-adult">3ml Adult Syringe (Q-03)</option>
+                        <option value="5ml-standard">5ml Standard Syringe (Q-04)</option>
+                        <option value="all">All Products</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Estimated Quantity *</label>
+                    <input type="text" id="quantity" name="quantity" placeholder="e.g., 10,000 units" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>About Isomed</h4>
+                    <p>Friends for Medical Supplies - ISOMED manufactures premium medical syringes with precision engineering and international quality standards.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#features">Why Isomed</a></li>
+                        <li><a href="#manufacturing">Manufacturing</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#products">3ml Baby Syringe</a></li>
+                        <li><a href="#products">3ml Infant Syringe</a></li>
+                        <li><a href="#products">3ml Adult Syringe</a></li>
+                        <li><a href="#products">5ml Standard Syringe</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p><strong>Address:</strong><br>Plot 224, 2nd Industrial Zone<br>Salhia, Sharkia, Egypt</p>
+                    <p><strong>Phone:</strong><br><a href="tel:+201557131806">+20 155 7131806</a></p>
+                    <p><strong>Email:</strong><br><a href="mailto:info@isomed.com.eg">info@isomed.com.eg</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Isomed - Friends for Medical Supplies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button type="button" class="lightbox-close" aria-label="Close">&times;</button>
+        <button type="button" class="gallery-btn prev" aria-label="Previous image">&#8249;</button>
+        <img src="" alt="">
+        <button type="button" class="gallery-btn next" aria-label="Next image">&#8250;</button>
+        <div class="lightbox-caption"></div>
+    </div>
+
+    <script>
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                company: document.getElementById('company').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                product: document.getElementById('product').value,
+                quantity: document.getElementById('quantity').value,
+                message: document.getElementById('message').value
+            };
+
+            // Send email via FormSubmit (free service)
+            const form = event.target;
+            form.action = 'https://formsubmit.co/info@isomed.com.eg';
+            form.method = 'POST';
+            form.submit();
+
+            alert('Thank you for your inquiry! We will contact you soon.');
+        }
+
+        // Product galleries: initialize every gallery independently
+        (function () {
+            const galleries = document.querySelectorAll('[data-gallery]');
+            const lb = document.getElementById('lightbox');
+            if (!lb || !galleries.length) return;
+
+            const lbImg = lb.querySelector('img');
+            const lbCap = lb.querySelector('.lightbox-caption');
+            let activeGallery = null;
+
+            function closeLb() {
+                lb.classList.remove('open');
+                activeGallery = null;
+            }
+
+            function openLb(gallery) {
+                activeGallery = gallery;
+                const img = gallery.slides[gallery.index].querySelector('img');
+                lbImg.src = img.src;
+                lbImg.alt = gallery.captions[gallery.index];
+                lbCap.textContent = gallery.captions[gallery.index] +
+                    '  (' + (gallery.index + 1) + ' / ' + gallery.slides.length + ')';
+                lb.classList.add('open');
+            }
+
+            galleries.forEach(g => {
+                const track = g.querySelector('.gallery-track');
+                const slides = Array.from(g.querySelectorAll('.gallery-slide'));
+                const thumbs = Array.from(g.querySelectorAll('.gallery-thumb'));
+                const counter = g.querySelector('.gallery-counter');
+                const caption = g.querySelector('.gallery-caption');
+                const viewport = g.querySelector('.gallery-viewport');
+                const captions = JSON.parse(g.dataset.captions || '[]');
+                const n = slides.length;
+
+                if (!n || !track || !counter || !caption || !viewport) return;
+
+                const gallery = {
+                    element: g,
+                    slides,
+                    captions,
+                    index: 0,
+                    timer: null,
+                    show: null
+                };
+
+                function show(idx) {
+                    gallery.index = (idx + n) % n;
+                    track.style.transform = 'translateX(' + (-100 * gallery.index) + '%)';
+                    counter.textContent = (gallery.index + 1) + ' / ' + n;
+                    caption.textContent = captions[gallery.index] || '';
+                    thumbs.forEach((thumb, k) =>
+                        thumb.classList.toggle('active', k === gallery.index)
+                    );
+
+                    const activeThumb = thumbs[gallery.index];
+                    if (activeThumb) {
+                        activeThumb.parentElement.scrollTo({
+                            left: activeThumb.offsetLeft - activeThumb.parentElement.offsetLeft - 60,
+                            behavior: 'smooth'
+                        });
+                    }
+
+                    if (activeGallery === gallery && lb.classList.contains('open')) {
+                        openLb(gallery);
+                    }
+                }
+
+                function stop() {
+                    clearInterval(gallery.timer);
+                    gallery.timer = null;
+                }
+
+                function play() {
+                    stop();
+                    if (n > 1 && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                        gallery.timer = setInterval(() => show(gallery.index + 1), 4500);
+                    }
+                }
+
+                gallery.show = show;
+
+                const prevButton = g.querySelector('.gallery-btn.prev');
+                const nextButton = g.querySelector('.gallery-btn.next');
+
+                if (prevButton) prevButton.addEventListener('click', () => {
+                    show(gallery.index - 1);
+                    play();
+                });
+
+                if (nextButton) nextButton.addEventListener('click', () => {
+                    show(gallery.index + 1);
+                    play();
+                });
+
+                thumbs.forEach((thumb, k) => thumb.addEventListener('click', () => {
+                    show(k);
+                    play();
+                }));
+
+                slides.forEach(slide => slide.addEventListener('click', () => {
+                    stop();
+                    openLb(gallery);
+                }));
+
+                g.addEventListener('mouseenter', stop);
+                g.addEventListener('mouseleave', play);
+
+                // Swipe support on touch screens
+                let x0 = null;
+                viewport.addEventListener('touchstart', e => {
+                    x0 = e.touches[0].clientX;
+                    stop();
+                }, { passive: true });
+
+                viewport.addEventListener('touchend', e => {
+                    if (x0 === null) return;
+                    const dx = e.changedTouches[0].clientX - x0;
+                    if (Math.abs(dx) > 40) show(gallery.index + (dx < 0 ? 1 : -1));
+                    x0 = null;
+                    play();
+                });
+
+                show(0);
+                play();
+            });
+
+            // Shared lightbox controls follow the gallery currently being viewed
+            lb.querySelector('.prev').addEventListener('click', () => {
+                if (activeGallery) activeGallery.show(activeGallery.index - 1);
+            });
+
+            lb.querySelector('.next').addEventListener('click', () => {
+                if (activeGallery) activeGallery.show(activeGallery.index + 1);
+            });
+
+            lb.querySelector('.lightbox-close').addEventListener('click', closeLb);
+            lb.addEventListener('click', e => {
+                if (e.target === lb) closeLb();
+            });
+
+            document.addEventListener('keydown', e => {
+                if (!lb.classList.contains('open') || !activeGallery) return;
+                if (e.key === 'Escape') closeLb();
+                if (e.key === 'ArrowLeft') activeGallery.show(activeGallery.index - 1);
+                if (e.key === 'ArrowRight') activeGallery.show(activeGallery.index + 1);
+            });
+        })();
+
+        // Smooth scroll for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
